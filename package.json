@@ -1,5 +1,5 @@
 {
-  "homepage" : "https://sameerkulkarni085.github.io/DSA-Learning-Site"
+  "homepage" : "https://sameerkulkarni085.github.io/DSA-Learning-Site",
 
   "dependencies": {
     "vite": "^6.0.3"
