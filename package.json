@@ -1,18 +1,33 @@
-{
-  "homepage" : "https://sameerkulkarni085.github.io/DSA-Learning-Site",
-
+{ "homepage" : "https://sameerkulkarni085.github.io/DSA-Learning-Site/",
+  "name": "react-app",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "vite": "^6.0.3"
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1"
   },
-
- "scripts": {
-  "predeploy":"npm run build",
-  "deploy":"gh-pages -d build"
-
+  "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-
-
-  "devDependencies": {
-    "gh-pages": "^6.2.0"
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
