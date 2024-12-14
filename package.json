@@ -1,7 +1,17 @@
 {
+  "homepage" : "https://sameerkulkarni085.github.io/DSA-Learning-Site"
+
   "dependencies": {
     "vite": "^6.0.3"
   },
+
+ "scripts": {
+  "predeploy":"npm run build",
+  "deploy":"gh-pages -d build"
+
+  },
+
+
   "devDependencies": {
     "gh-pages": "^6.2.0"
   }
